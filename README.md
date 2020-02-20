@@ -66,3 +66,35 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+### Copy
+Como Criar uma Aplicação Full-Stack com React P1
+[
+API Rest
+]
+	Parte 1
+		npx create-react-app react-todo-bulma
+		cd react-todo-bulma npm start
+		mkdir server cd server mkdir config controllers models routes
+	2. Criando servidor
+		pacotes
+			npm install express body-parser --save npm install nodemon --save-dev
+			npm install mongoose --save
+			yarn add mongoose
+			yarn add cors
+		no script
+			"scripts": {     "server": "nodemon src/server/server.js",
+			npm run server
+		Testes
+			postman
+				http://localhost:3001/api/tasks
+				[
+				//Via post
+				
+				{
+				    "title": "Tarefa 1",
+				    "details": "Minha primeira tarefa",
+				}
+				]
+	Meu git
