@@ -19,7 +19,7 @@ class Task extends Component {
                     </div>
 
                     <div className="column is-2 is-centered" >
-                        <EditButton _id=1/>
+                        <EditButton />
                     </div>
 
                 </div>

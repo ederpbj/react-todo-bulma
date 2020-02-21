@@ -1,16 +1,18 @@
 import React, { Fragment } from 'react';
-import { Link } from 'react-router-dom';
 
-const EditButton = ({ _id }) => {
+// Components
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+const DoneButton = () => {
     return (
         <Fragment>
-            <Link to={`/update/${_id}`}>
-                <button className="button is-primary is-small">
-                    Edit
-                </button>
-            </Link>
+            <span className="icon is-primary">
+                <a>
+                    <FontAwesomeIcon icon={['far', 'circle']} />
+                </a>
+            </span>
         </Fragment>
-    )
+    );
 };
 
-export default EditButton;
+export default DoneButton;
