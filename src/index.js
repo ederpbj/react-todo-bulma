@@ -7,8 +7,16 @@ import * as serviceWorker from './serviceWorker';
 //importar bulma
 import './style/theme.css';
 
-//importar component de pages
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faCircle } from '@fortawesome/free-regular-svg-icons';
+
+// Components
 import Layout from './pages/Layout';
+
+//Add icone
+import { faSyncAlt, faPlus } from '@fortawesome/free-solid-svg-icons';
+
+library.add(faCircle, faPlus);
 
 //ReactDOM.render(<App />, document.getElementById('root'));
 

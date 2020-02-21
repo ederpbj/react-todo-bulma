@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 
 //Importar box
 import Box from "./layout/Box";
-import Form from "./layout/Form";
 
 class Layout extends Component {
     render() {
