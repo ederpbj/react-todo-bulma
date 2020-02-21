@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 //Importar box
 import Box from "./layout/Box";
 
+
 class Layout extends Component {
     render() {
         return (
@@ -17,6 +18,8 @@ class Layout extends Component {
                         </div>
                     </div>
                 </div>
+
+                
             </section>
         );
     };
